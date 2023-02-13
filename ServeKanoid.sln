@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServeKanoid", "ServeKanoid.vcproj", "{FE511EFF-F354-42C2-ABAD-B78FC09C1CF4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "editor", "editor\editor.vcproj", "{D19AC6E7-72C7-482E-9816-EF41239E53D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE511EFF-F354-42C2-ABAD-B78FC09C1CF4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FE511EFF-F354-42C2-ABAD-B78FC09C1CF4}.Debug|Win32.Build.0 = Debug|Win32
+		{FE511EFF-F354-42C2-ABAD-B78FC09C1CF4}.Release|Win32.ActiveCfg = Release|Win32
+		{FE511EFF-F354-42C2-ABAD-B78FC09C1CF4}.Release|Win32.Build.0 = Release|Win32
+		{D19AC6E7-72C7-482E-9816-EF41239E53D7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D19AC6E7-72C7-482E-9816-EF41239E53D7}.Debug|Win32.Build.0 = Debug|Win32
+		{D19AC6E7-72C7-482E-9816-EF41239E53D7}.Release|Win32.ActiveCfg = Release|Win32
+		{D19AC6E7-72C7-482E-9816-EF41239E53D7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ServeKanoid - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP1104.TMP" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/ServeKanoid.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\development\Visual Studio\MyProjects\ServeKanoid\arkanoid.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP1104.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1105.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib easyx.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ServeKanoid.pdb" /machine:I386 /out:"Release/ServeKanoid.exe" 
+".\Release\arkanoid.obj"
+".\Release\ball.obj"
+".\Release\block.obj"
+".\Release\mainmenu.obj"
+".\Release\player.obj"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP1105.TMP"
+<h3>Output Window</h3>
+Compiling...
+arkanoid.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/ServeKanoid.bsc"  ".\Release\arkanoid.sbr" ".\Release\ball.sbr" ".\Release\block.sbr" ".\Release\mainmenu.sbr" ".\Release\player.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ServeKanoid.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
